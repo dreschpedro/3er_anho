@@ -1,0 +1,9 @@
+##Análisis exploratorio de la base de datos Ventas 2##
+
+
+Diferencias  inner join y left join
+
+Listado de clientes y si realizó compras indicar el importe total comprado. 
+Listado de clientes que realizaron compras (solo los que realizaron al menos una compra), indicar monto total de las compras realizadas. 
+Listado de todos los productos y cantidad que se vendieron de cada uno. 
+Listado de todas las formas de pago y cantidad de transacciones realizadas con cada una. 

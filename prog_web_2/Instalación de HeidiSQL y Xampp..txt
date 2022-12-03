@@ -1,0 +1,24 @@
+PARA INSTALAR HEIDISQL Y XAMPP.
+
+Teniendo en cuenta que Xampp es un servidor local para desarrollo y no para producción.
+
+El Sistema desarrollado en la materia Programación con Base de Datos desde visual funciona con el conector que se uso de referencia para conectar visual con mysql en la materia Sistema de base de datos.
+
+1.No tiene que estar instalado HeidiSql (ninguna versión) si esta instalado ir a panel de control Programas/Desinstalar_un_programa buscas MariaDb y desinstalas (reiniciar la maquina).
+2.Se instala Xampp preferiblemente la ultima versión desde la pagina oficial, se instala normalmente como viene predeterminado, se comprueba de que Apache y MySql corran en los puertos predeterminados y estén en ejecución.
+3.Se va a la pagina de https://www.heidisql.com/download.php se descarga el instalador de HeidiSql para escritorio la ultima versión (al finalizar reiniciar la maquina).
+4.Una vez instalados los dos programas Abris Xampp: ejecutas Apache y MySql.
+5.Abrís HeidiSql:
+*Tipo de Red: MariaDB or MySQL (TCP/IP)
+*Library: libmariadb.dll
+*Nombre del host/IP: 127.0.0.1
+*Usuario: "Tu Usuario que creaste o el predeterminado"
+*Contraseña: " " (no viene con contraseña)
+*Puerto: 3306
+6.Le das en Abrir e ingresas a el menú principal de control donde ves las BD cargadas.
+7.Al abrir tu sistema desde visual no se va a poder conectar al servidor porque no tiene contraseña y la validación de usuario no se puede ejecutar.
+8.Vas a la pagina principal de Apache (Teniendo Apache en ejecucion desde Xampp) poniendo https://localhost/ en el buscador del navegador, das clic en HOW-TO Guides (https://localhost/dashboard/docs/reset-mysql-password.html), buscas Reset the MySQL/MariaDB Root Password y seguís las instrucciones para ingresar una contraseña (tambien sirve para ingresar una nueva contraseña) [Video de como hacer esos pasos(https://www.youtube.com/watch?v=HMDSPX1qN-M&ab_channel=GAMG-Caf%C3%A9delProgramador)].
+9.Una vez hecho eso vas a la carpeta donde esta instalado Xampp, dentro de Xampp buscas la carpeta PhpMyAdmin dentro de esa carpeta buscas "config.inc" le das en abrir, te abre un código en visual studio code, bajas a la linea 21 o donde diga "$cfg['Servers'][$i]['password'] = '123456';" donde esta '123456' va a estar vació ahí pones la contraseña que quieras, das Ctrl+S y cerraos.
+10.En caso de error al ejecutar tu sistema desde Visual diciendo no se pudo conectar ir al modulo de tu sistema y comprobar la contrase de la bd.
+11.Tenes abierto Xampp, ejecutandose Apache y MySQL, abris Heidi pones el Usuario que uses la contraseña que creaste y tendrías que tener Heidi SQL y Xampp trabajando en tiempo real con tu sistema.
+12.Cargar base de datos desde PhpMyAdmin o preferiblemente desde HeidiSQL si en PhpMyAdmin te tira errores de claves foráneas. Importas tu bd en Heidi y arreglas los errores ahí, en PhpMyAdmin se actualiza la bd en tiempo real.

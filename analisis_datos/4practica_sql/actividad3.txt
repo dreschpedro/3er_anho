@@ -1,0 +1,3 @@
+Análisis exploratorio de base de datos Ventas3
+Informe el cliente con mayor sumatoria de compras realizadas. Nombre, apellido, sexo, DNI y monto total de las compras realizadas. 
+Informe la cantidad de compras realizadas por cliente y por sucursal. Descr. de la sucursal, nombre, apellido, sexo, DNI  y cantidad de compras realizadas. 

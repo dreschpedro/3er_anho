@@ -1,0 +1,12 @@
+##Análisis exploratorio de datos de base de Ventas 1##
+
+
+Desarrollar los script necesarios para obtener de la base de datos cm_fuente_e1 la siguiente información:
+
+-- Realizar un listado de todos los productos comprados por el cliente con apellido A1 y nombre a1.
+
+-- Realizar un listado de todas las facturas emitidas a nombre del cliente con apellido A2 y nombre a2. Indicar fecha y hora de la compra
+
+-- total de cada factura sin IVA y con IVA. 
+
+-- Realizar un listado de las sucursales indicando el total vendido por cada una de ellas. Indicar la ciudad y provincia donde se ubica la sucursal
