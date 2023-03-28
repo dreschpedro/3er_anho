@@ -1,0 +1,1 @@
+Realizar los asientos contable en libro diario y realice la mayorización de cuentas.
