@@ -1,5 +1,0 @@
-los archivos php se guarda en la carpeta XAMP y HTDOCS D:\XAMP\htdocs
- Abrir XAMPP y ejecutar APACHE SI O SI SE NECESITA EL SERVIDOR PARA VER EL CODIGO 
- Creas una carpeta dentro de la carpeta en esa direccion (El nombre de la carpeta tiene que estar todo junto)
- Para ejecutar el codigo de PHP se va a el navegador http://localhost/VeronAnalista/Clase1.php 
- La carpeta la arrastras a el visual studio code
