@@ -1,0 +1,16 @@
+en base a este documento (https://github.com/dreschpedro/3er_anho/blob/main/1er_cuatrimestre/sist_contable/3_unidad/material/modulo_completo_3.pdf) responde:
+
+1. Explique que son las cuentas del activo.
+2. ¿Cuales son los rubros que conforman el Activo?
+3. Frente a que operación las siguientes cuenta aumentan su saldo y en cual disminuye, por ejemplo la cuenta Caja aumenta su saldo cuando COBRAMOS y disminuye su saldo cuando PAGAMOS:
+-BANCO
+-DEUDORES POR VENTAS
+-MERCADERIA
+-RODADO
+-MUEBLES Y UTILES
+4. Realice en el libro diario las siguiente operaciones:
+-Por razones de seguridad se deposita en el Banco Nación Argentina $ 20.000 en efectivo.
+-Una zapatería vende 150 pares de zapatos a $ 55 c/u en cuenta corriente mercantil.
+-Se contrata publicidad televisiva por un semestre, el total es de $15.000 y se abona con un cheque. Realizar el asiento de devengamiento.
+5. ¿Cual es el asiento que se debe realizar cuando se obtiene el producto terminado?
+6. ¿Por qué los bienes de usos deben ser amortizados?.
