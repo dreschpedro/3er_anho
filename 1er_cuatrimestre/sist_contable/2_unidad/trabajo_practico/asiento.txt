@@ -1,0 +1,29 @@
+| Fecha  | Nro Registro | Debe                               | Haber                                |
+| ------ | ------------ | ---------------------------------- | ------------------------------------ |
+| 5-dic  | 1            | Caja y Bancos (30.000)             | Aportes de Socios (30.000)           |
+| ------ | ------------ | ------                             | -------                              |
+| 7-dic  | 2            | Compras (1.000)                    | Caja y Bancos (500)                  |
+|        |              | Proveedor A (500)                  | Caja y Bancos (500)                  |
+| ------ | ------------ | ------                             | -------                              |
+| 8-dic  | 3            | Instalaciones (3.040)              | Acreedores por Pagaré (1.040)        |
+|        |              | Intereses por Pagaré (40)          | Caja y Bancos (500)                  |
+|        |              | Proveedor A (1.500)                | Caja y Bancos (2.000)                |
+| ------ | ------------ | ------                             | -------                              |
+| 9-dic  | 4            | Caja y Bancos (1.250)              | Mercaderías (625)                    |
+|        |              | Ventas (1.250)                     | Costo de Ventas (625)                |
+| ------ | ------------ | ------                             | -------                              |
+| 10-dic | 5            | Mercaderías (6.000)                | Proveedor B (6.000)                  |
+| ------ | ------------ | ------                             | -------                              |
+| 15-dic | 6            | Caja y Bancos (4.300)              | Ventas (5.000)                       |
+|        |              | Descuentos sobre Ventas (300)      | Costo de Ventas (3.750)              |
+|        |              | Clientes (4.000)                   | Mercaderías (1.250)                  |
+| ------ | ------------ | ------                             | -------                              |
+| 20-dic | 7            | Caja y Bancos (4.500)              |                                      |
+| ------ | ------------ | ------                             | -------                              |
+| 20-dic | 8            | Clientes por Ventas a Crédito(500) | Ventas a Crédito sin Documentar(500) |
+| ------ | ------------ | ------                             | -------                              |
+| 21-dic | 9            | Acreedores por Pagaré(4.050)       | Caja y Bancos(4.050)                 |
+| ------ | ------------ | ------                             | -------                              |
+| 22-dic | 10           | Acreedores Comerciales(3.000)      | Caja y Bancos(3.000)                 |
+| ------ | ------------ | --                                 | --                                   |
+| 23-dic | 11           | Caja y Bancos(4.000)               | Alquileres Cobrados(4.000)           |
