@@ -1,0 +1,27 @@
+Fecha	Descripción	Debe	Haber
+4-dic	Caja	 $ 5.000,00 	
+	Banco Nación c/c	 $ 6.000,00 	
+	Instalaciones	 $ 8.000,00 	
+	Capital social		 $ 19.000,00 
+6-dic	Mercaderías	 $ 2.000,00 	
+	IVA soportado	 $ 420,00 	
+	Caja		 $ 1.210,00 
+	Banco Nación c/c		 $ 1.210,00 
+8-dic	Instalaciones       	 $ 3.000,00 	
+	Intereses pasivos	 $ 40,00 	
+	Caja       		 $ 500,00 
+	Banco Nación c/c		 $ 1.500,00 
+	Efectos a pagar		 $ 1.040,00 
+15-dic	Caja	 $ 1.250,00 	
+	Ventas		 $ 1.250,00 
+15-dic	Coste de ventas	 $ 1.000,00 	
+	Mercaderías		 $ 1.000,00 
+20-dic	Mercaderías	 $ 6.000,00 	
+	IVA soportado	 $ 1.260,00 	
+	Proveedores		 $ 7.260,00 
+22-dic	Caja	 $ 700,00 	
+	Efectos a pagar	 $ 4.200,00 	
+	Ventas 		 $ 5.000,00 
+	Descuentos 		 $ 300,00 
+22-dic	Coste de ventas	 $ 4.000,00 	
+	Mercaderías		 $ 4.000,00 
