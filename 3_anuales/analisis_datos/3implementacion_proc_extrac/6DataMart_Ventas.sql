@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `udg_e1` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `udg_e1`;
+CREATE DATABASE  IF NOT EXISTS `data_mart_ventas` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `data_mart_ventas`;
 -- MySQL dump 10.13  Distrib 5.7.25, for Win64 (x86_64)
 --
 -- Host: localhost    Database: udg_e1
