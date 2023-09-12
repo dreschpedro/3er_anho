@@ -1,0 +1,187 @@
+Auditorías en Ciberseguridad: Un modelo de aplicación general para empresas y naciones
+Régner Sabillón1, Jeimy J. Cano M.2
+
+Resumen: Este artículo presenta los resultados de un estudio de implementación y validación del Modelo de Auditoría de Ciberseguridad (CSAM), en un estudio de casos múltiples en una universidad canadiense. Se propone que el modelo se utilice para adelantar auditorías de ciberseguridad en cualquier organización o nación, y así evaluar la seguridad, su madurez y la preparación frente a la seguridad cibernética.
+De igual forma, detectar las necesidades para acrecentar la conciencia cibernética a nivel organizacional y personal. CSAM se ha probado, implementado y validado en tres escenarios de investigación (1) Auditoría de todos los dominios del modelo, (2) Auditoría de varios dominios y (3) una auditoría de un único dominio. El artículo concluye detallando información relevante para la toma de decisiones futuras con el fin de ajustar las limitaciones de ciberseguridad identificadas, mejorar sus dominios y controles, y de esta manera, implementar y probar de manera eficiente este modelo en cualquier organización o país.
+Palabras-clave: Ciberseguridad; modelos de auditoría de ciberseguridad; auditorías en ciberseguridad; controles en ciberseguridad; aseguramiento en ciberseguridad.
+
+Audits in Cybersecurity: A model of general application for companies and nations
+
+1. Introducción
+Las organizaciones tratan de proteger los activos cibernéticos e implementar medidas y programas de ciberseguridad, pero a pesar de este esfuerzo continuo, es inevitable que se presenten las violaciones de la ciberseguridad y se materialicen ataques cibernéticos.
+Un estudio reciente (Hiscox, 2017) destaca que la incidencia de ataques cibernéticos es alta en compañías británicas, estadounidenses y alemanas de diferentes industrias y sectores, incluyendo tecnología, finanzas, servicios empresariales, manufactura, servicios profesionales, comercio minorista, construcción, transporte, alimentos y bebidas, salud, ocio, telecomunicaciones, bienes raíces, medios de comunicación, energía y productos farmacéuticos, desde pequeñas empresas hasta grandes corporaciones. El 57% de las empresas han experimentado al menos uno y el 42% de esas organizaciones se han ocupado de dos o más ataques cibernéticos en el último año. La mayoría de las empresas (62%) generalmente se recuperan de un incidente cibernético en menos de 24 horas; un cuarto (26%) generalmente toma menos de una hora para volver a los negocios, mientras que algunas compañías pasan dos días o más para recuperarse de un ataque cibernético. El análisis de brechas sugiere que invertir dinero o tener grandes presupuestos de seguridad cibernética no ayuda a las empresas a alcanzar el nivel de “Expertos en Internet”. Por el contrario, un importante desembolso financiero no es la solución sino la implementación de otras medidas de estrategia y proceso, como la participación de la alta gerencia, la capacitación en concientización sobre la seguridad cibernética, el seguimiento sistemático y la documentación. Los costos de un ataque cibernético varían según las zonas geográficas, por ejemplo, con las empresas con más de 1.000 empleados, el impacto financiero costaría $ 53,131 en Alemania, $ 84,045 en el Reino Unido y $ 102,314 en los Estados Unidos (Hiscox, 2017).
+Las auditorías de TI se están redefiniendo para incluir la ciberseguridad, sin que a la fecha existan pautas claras o consenso sobre qué áreas, subáreas, dominios o subdominios se incluirán en una auditoría de ciberseguridad. El modelo propuesto de auditoría de seguridad cibernética (CSAM), detallado en este artículo, ha sido diseñado para abordar las limitaciones y la inexistencia de controles de seguridad cibernética con el fin de materializar un programa de ciberseguridad o desarrollar auditorías de ciberseguridad específicas de dominio. Por tanto, un modelo extenso de auditoría de ciberseguridad puede apoyar la función de seguridad de la información y al mismo tiempo establecer un marco de trabajo para la concientización en seguridad de la información basada en los roles de la empresa.
+Por tanto, se presentan los resultados de un estudio empírico que evaluó la implementación y validación del CSAM a través de una extensa auditoría de ciberseguridad. Este estudio fue motivado por la falta de directrices generales para llevar a cabo auditorías exhaustivas de ciberseguridad y las debilidades existentes de los programas disponibles a la fecha para impartir entrenamiento en concientización sobre la ciberseguridad.
+
+Esta investigación se realizó con el propósito de dar respuesta a las siguientes interrogantes:
+¿Cómo podemos evaluar y medir el nivel aseguramiento de la ciberseguridad, la madurez y la ciberpreparación en cualquier organización o Nación?
+¿Por qué es necesario aumentar la ciberconciencia a nivel organizacional y personal?
+
+2. Metodología
+El objetivo de este estudio es investigar y proporcionar modelos integrales para los desafíos que puedan surgir al planificar y realizar auditorías de ciberseguridad, así como la implementación de la capacitación propia de la concientización sobre ciberseguridad. Entre los casos de estudio se consideran los más relevantes los estudios observacionales; los resultados de cualquier caso de estudio son limitados en generalización y aplicaciones más amplias (Edgard & Manz, 2017). Algunos autores prefieren diseñar sus casos de estudio utilizando la metodología de investigación de Yin (2009). Bartnes & Brede (2016) presentaron su investigación utilizando la recopilación de datos, el análisis de datos, las secciones de escenarios y contenido de casos. Meszaros & Buchalcevova (2016) diseñaron el Marco de Seguridad de Servicios Online (OSSF) y sus métodos de investigación se organizaron en un proceso con las siguientes actividades: 
+
+1. Identificación del problema y motivación.
+2. Definición de objetivos para una solución.
+3. Diseño y desarrollo.
+4. Demostración
+5. Evaluación
+6. Comunicación
+
+Luego de esta declaración, se ha diseñado, implementado y validado un estudio de casos múltiples basado en Yin (2018) de dos ejercicios: una auditoría de ciberseguridad y una capacitación de concientización sobre la ciberseguridad en una institución de educación superior canadiense. No es posible revelar más detalles de la organización objetivo por los acuerdos de confidencialidad establecidos. Se ha realizado este estudio de casos múltiples siguiendo la metodología de investigación propuesta por Yin (2018). La motivación de este estudio tuvo como objetivo diseñar un modelo que incluyera un enfoque completo para planificar y realizar auditorías de ciberseguridad en cualquier organización con la capacidad para evaluar igualmente, las estrategias nacionales de ciberseguridad. Además, se identificó que era necesario lidiar con la falta de conocimiento para enfrentar los ataques y las amenazas cibernéticas, y como resultado, se diseñó un modelo organizacional de capacitación para la concientización sobre ciberseguridad que se puede implementar para fundar los elementos de cualquier programa de
+concientización sobre ciberseguridad. 
+
+3. Marco General de Gestión de Riesgos 
+Los modelos vigentes de ciberseguridad o de auditoría de ciberseguridad, responden por lo general a una gestión de riesgos conocidos. Las organizaciones basadas en sus experiencias previas, resultados de ejercicios anteriores y revisiones de terceros, establecen un marco general de riesgos que terminan articulando en las ya conocidas matrices de riesgo-control, las cuales son revisadas y validadas en última instancia por
+los ejecutivos de las empresas (Cano, 2018). En este contexto, las prácticas comunes de riesgo, generalmente  articuladas desde el ISO 31000 e ISO 27005, establecen una serie pasos que buscan explorar de forma eficiente la manera como la organización se puede enfrentar a aquellas amenazas y actividades no deseadas previamente establecidas en el entorno (Díaz & Muñoz, 2018), dejando posiblemente fuera del radar aquellas que pueden afectarla gravemente por lo incierto de su manifestación.
+De acuerdo con lo anterior, se hace necesario introducir un marco de trabajo de riesgos que actualice las prácticas actuales de su gestión, con el fin de ir más allá de los riesgos conocidos, y establecer un escenario extendido de revisión y análisis que dé cuenta tanto de las posibilidades como de las probabilidades. La ventana de AREM (Cano,
+2014) es un marco de trabajo estratégico y táctico que no solo incluye los riesgos conocidos, sino que desarrolla aquellos que son propios del sector de la empresa que hace el ejercicio (riesgos focales), los latentes y los emergentes. Este instrumento, que ha sido probado en grandes empresas de energía como en el sector financiero, así como en la identificación y gestión de los riesgos de la infraestructura crítica de un país, permite a los auditores de ciberseguridad, movilizar sus reflexiones más allá del cuadrante de riesgos conocidos, para motivar conversaciones con las empresas para ver escenarios ampliados de amenazas, las cuales pueden no ser visibles desde el uso tradicional de los estándares. Basado en lo anterior, la aplicación del Modelo de Auditoría de Ciberseguridad (CSAM), fundado en la gestión de riesgos usando la ventana de AREM, permite a los auditores mantener una sensibilidad concreta del entorno, que habilita una vista sistémica de los riesgos, para explorar en profundidad los diferentes dominios del modelo mencionado y buscar alternativas de aseguramiento que aumentan la confiabilidad de las prácticas de ciberseguridad de las empresas evaluadas.
+4. El Modelo de Auditoría de CiberSeguridad (CSAM) 
+El Modelo de Auditoría de Ciberseguridad (CSAM) es un modelo innovador y exhaustivo que incluye la evaluación óptima de la ciberseguridad en cualquier organización y puede verificar pautas específicas para las naciones que planean implementar una estrategia nacional de seguridad cibernética o desean evaluar la efectividad de su Estrategia o Política Nacional de Ciberseguridad ya en vigor. El CSAM se puede implementar para llevar a cabo auditorías internas o externas de ciberseguridad, este modelo se puede usar para realizar auditorías de ciberseguridad individuales o puede ser parte de cualquier programa de auditoría corporativa para mejorar los controles de ciberseguridad. Cualquier equipo de auditoría tiene las opciones de realizar una auditoría completa para todos los dominios de ciberseguridad o simplemente seleccionando dominios específicos para auditar ciertas áreas que necesiten verificación de control y fortalecimiento. El CSAM tiene 18 dominios; el dominio 1 es específico para las Naciones y los dominios 2-18 se pueden implementar en cualquier organización. La organización puede ser cualquier empresa pequeña, mediana o grande, el modelo también es aplicable a cualquier organización sin fines de lucro.
+El objetivo de este trabajo es introducir un modelo de auditoría de ciberseguridad que incluya todas las áreas funcionales, a fin de asegurar una evaluación efectiva de ciberseguridad, su madurez y preparación cibernética en cualquier organización o Nación que esté auditando su Estrategia Nacional de Ciberseguridad. Esta propuesta se concibió como un modelo de auditoría de ciberseguridad integrado para evaluar y medir el nivel de madurez de la ciberseguridad y la preparación cibernética en cualquier tipo de organización, sin importar en qué industria o sector esté posicionada la organización. Muchos marcos de seguridad cibernética están orientados principalmente hacia una industria específica como el “PCI DSS” para la seguridad de las tarjetas de crédito, el “NERC CIP Cyber Security” para el sistema de energía eléctrica o el “Marco de seguridad cibernética del NIST” para proteger la
+infraestructura crítica nacional.
+Sin embargo, los marcos existentes no proporcionan una vista unificada para la planificación y la realización de auditorías de ciberseguridad. La necesidad de alinear los marcos de seguridad cibernética específicos se debe a los requisitos regulatorios propios de las industrias, con el fin de cumplir con las auditorías internas o externas, y así satisfacer los propósitos comerciales y los requisitos del cliente o simplemente mejorar la estrategia de ciberseguridad de la empresa. El Modelo de Auditoría de Ciberseguridad (CSAM) contiene información general, recursos, 18 dominios, 26 subdominios, 87 listas de verificación, 169 controles, 429 subcontroles, 80 evaluación de pautas y un cuadro de evaluación que se muestra en la Figura 1.
+Figura 1 – Modelo de Auditoría de Ciberseguridad (CSAM)
+
+4.1. Información General
+Esta sección presenta la estructura del modelo, la metodología de trabajo y las posibles opciones de implementación.
+4.2. Recursos
+Este componente proporciona enlaces a recursos adicionales para ayudar a comprender los temas de ciberseguridad:
+Ciberseguridad: Centro de Recursos de Seguridad Informática del Instituto Nacional de Estándares y Tecnología (NIST), prácticas de ciberseguridad de la Autoridad Reguladora de la Industria Financiera (FINRA) y ciberseguridad de la Seguridad Nacional (USA Homeland Security).
+Estrategia nacional de ciberseguridad: Estrategia de ciberseguridad de la Organización del Tratado del Atlántico Norte (OTAN), estrategia de ciberseguridad de la Agencia de la Unión Europea para la Seguridad de las Redes y la Información (ENISA) y análisis comparativo de la Organización para la Cooperación y el Desarrollo Económico (OCDE)
+de las estrategias nacionales de ciberseguridad.
+Gobernanza: Junta de Gobernanza de Ciberseguridad en PricewaterhouseCoopers y ciberseguridad de MITRE Corporation.
+Activos cibernéticos: activos cibernéticos críticos de NERC (North American Electric Reliability Corporation).
+Marcos: Marcos comunes de ciberseguridad de Foresite, el marco del Equipo de Preparación para Emergencias Informáticas de los EE.UU. (US-CERT) y el de ISACA (Information Systems Audit and Control Association) implementando el marco de ciberseguridad del NIST.
+Arquitectura: Guía de arquitectos del TCG (Trusted Computer Group) y la arquitectura de seguridad de TI del Departamento de Energía de EE. UU.
+Gestión de vulnerabilidades: Evaluación de vulnerabilidad SANS, evaluación y gestión de la seguridad nacional.
+Inteligencia de amenazas cibernéticas: SANS (SysAdmin, Audit, Network and Security Institute): ¿Quién usa la inteligencia de amenazas cibernéticas y cómo?
+Respuesta a incidentes: Preguntas frecuentes sobre el Equipo de respuesta a incidentes de seguridad informática (CSIRT – Computer Security Incident Response Team).
+Análisis forense digital: Libros blancos de análisis forense SANS.
+Conocimiento: NCSA (National Cyber Security Alliance) - Manténgase seguro online y PCI DSS (Payment Card Industry Data Security Standard): Mejores prácticas para implementar el programa de conocimiento de seguridad.
+Defensa cibernética: SANS- La escala móvil de la ciberseguridad.
+Recuperación ante desastres: FEI (Financial Executives International) Canadá - Ciberseguridad y continuidad de negocios.
+Personal: Kaspersky - Los 10 mejores consejos para educar a los empleados sobre la ciberseguridad.
+4.3. Dominios
+El CSAM contiene 18 dominios. El dominio 1 ha sido diseñado exclusivamente para Naciones y los dominios 2-18 son aplicables a cualquier organización.
+4.4. Subdominios 
+Todos los dominios tienen al menos un subdominio, pero en ciertos casos pueden existir varios subdominios por dominio.
+Los subdominios son Ciberespacio, Gobernanza, Estrategia, Legal y Regulatorio, Gestión de Activos Cibernéticos, Riesgos Cibernéticos, Marcos y Regulaciones, Arquitectura, Redes, Información, Sistemas, Aplicaciones, Gestión de Vulnerabilidad, Inteligencia de Amenazas, Administración de Incidentes, Forensia Digital, Programa de Cibereducación Seguro Cibernético, Defensa Cibernética Activa, Tecnologías en Evolución, Recuperación de desastres, Contratación, Recursos Humanos, Habilidades, Capacitación y Despidos/Renuncias.
+4.5. Controles
+Cada dominio tiene subdominios que tienen asignado un número de referencia. Los controles se identifican mediante números de cláusula y una lista de verificación asignada. Para verificar la evaluación de control, el control de ciberseguridad está definido o es inexistente.
+4.6. Listas de Verificación
+Cada lista de verificación está vinculada a un dominio específico y al subdominio subordinado. La lista de verificación verifica la validez de los subcontroles de ciberseguridad alineados con una cláusula de control. Los auditores de ciberseguridad tienen la opción de recopilar evidencia para verificar el cumplimiento del control
+secundario.
+4.7. Evaluación de Directrices
+La evaluación de la guía solo se aplica al dominio de las Naciones. Las directrices se evalúan para determinar la cultura de ciberseguridad, la Estrategia Nacional de Ciberseguridad (ENC), las operaciones cibernéticas, las infraestructuras críticas, la inteligencia cibernética, la guerra cibernética, la ciberdelincuencia y la diplomacia
+cibernética.
+4.8. Cuadro de Evaluación
+La evaluación de control, directriz y subcontrol se calcula después de que se haya completado la auditoría. La evaluación consiste en asignar puntajes y calificaciones para cada control, directriz y control secundario.
+
+Se calcula la clasificación final de la madurez de la ciberseguridad del dominio de las Naciones utilizando los siguientes criterios. La puntuación se puede asignar a un nivel de madurez específico:
+Inmaduro (I): 0-30
+La Nación no tiene planes para administrar su ciberespacio. Una Estrategia o Política Nacional de Ciberseguridad (ENC) es inexistente.
+En desarrollo (D): 31-70
+La Nación está empezando a centrarse en la ciberseguridad nacional. Si las tecnologías están en su lugar, la Nación debe centrarse en áreas clave para proteger el ciberespacio.
+Maduro (M): 71-90
+Mientras que la Nación tiene un ambiente maduro. Se requieren mejoras en áreas claves que se han identificado con debilidades.
+Avanzado (A): 91-100
+La Nación se ha destacado en la ciberseguridad nacional y en las prácticas del ciberespacio. Siempre hay espacio para mejorar. La Nación podría convertirse en un líder internacional y ayudar a otros Estados en temas de ciberseguridad y ciberespacio.
+Y para los dominios 2-18, calculamos la calificación final de madurez de la ciberseguridad de cualquier organización utilizando los siguientes criterios:
+La puntuación se puede asignar a un nivel de madurez específico:
+Inmaduro (I): 0-30
+La organización no tiene planes para gestionar su ciberseguridad. Los controles para las áreas críticas de ciberseguridad son inexistentes o muy débiles. La organización no ha implementado un programa integral de ciberseguridad.
+En desarrollo (D): 31-70
+La organización está empezando a centrarse en asuntos de ciberseguridad. Si las tecnologías están en su lugar, la organización debe centrarse en áreas clave para proteger los activos cibernéticos. La atención debe estar enfocada hacia el personal, procesos, controles y regulaciones.
+Maduro (M): 71-90
+Mientras que la organización tiene un ambiente maduro. Se requieren mejoras en las áreas claves que se han identificado con debilidades.
+Avanzado (A): 91-100
+La organización ha destacado en la implementación de las mejores prácticas de ciberseguridad. Siempre existen posibilidades para la mejora continua. Se debe mantener la documentación correspondiente actualizada y revisar continuamente los procesos de ciberseguridad a través de auditorías y basado en el marco general de riesgos latentes y emergentes.
+41
+RISTI, N.º 32, 06/2019
+RISTI - Revista Ibérica de Sistemas e Tecnologias de Informação
+5. Resultados
+El CSAM se implementó y validó utilizando tres escenarios diferentes en la institución de educación superior canadiense. Para implementar y validar el CSAM, también diseñamos el CATRAM que se implementó simultáneamente junto con el CSAM. Nuestras preguntas de investigación se abordaron adecuadamente mediante la creación y validación de dos modelos de ciberseguridad en las áreas de auditoría y concientización. La organización objetivo consideró los tres escenarios como realistas para su evaluación, capacitación de sensibilización, aseguramiento y auditoría de ciberseguridad. Se concluye que los dos modelos de ciberseguridad son funcionales y útiles según se observa en los resultados de la validación (Tabla 1). Por lo tanto, los modelos de ciberseguridad son susceptibles de implementar y probar en cualquier organización. Blokdyk (2018) utiliza un enfoque similar para presentar los resultados del cuadro de mando de ciberseguridad. Esta autoevaluación de la ciberseguridad presenta el cuadro de mando ilustrado en un gráfico de radar, que destaca un sistema de puntaje de siete criterios que incluye el reconocimiento, la definición, la medición, el análisis, la mejora, el control y el mantenimiento de los asuntos de ciberseguridad con un enfoque en la gestión de riesgos.
+No.     Ciberdominios 			          Resultados
+2	      Gobernanza y Estrategia 		  35% 
+3	      Marco Legal y Conformidad 		90%
+4	      Activos Cibernéticos			    30%
+5	      Riesgos Cibernéticos 			    60%
+6 	    Marcos y Regulaciones			    30%
+7	      Arquitectura y Redes 			    67%
+8	  Información, Sistemas y Aplicaciones  55%
+9   Identificacion de Vulnerabilidades  30%
+10 Inteligencia de Amenazas 60%
+11 Gestión de Incidentes 10%
+12 Análisis Forense Digital 30%
+13 Educación de Concientización 60%
+14 Ciberseguros 90%
+15 Defensa Cibernética Activa  5%
+16 Tecnologias Evolutivas 100%
+17 Recuperacion ante Desastres 30%
+18 Gestión de Recursos Humanos 77%
+Nivel de Madurez en Ciberseguridad 51%
+
+Tabla 1 – Nivel de Madurez basado en múltiples ciberdominios
+El siguiente resumen presenta oportunidades al mejorar y fortalecer las medidas de seguridad cibernética en nuestra organización objetivo.
+
+Dominios de ciberseguridad que necesitan atención inmediata basada en la auditoría CSAM:
+Marcos y regulaciones (30%): La organización necesita seleccionar un marco o componentes de seguridad específicos de varios marcos de seguridad de la información para implementar los marcos deseados. Se debe seleccionar un marco de ciberseguridad para garantizar la protección de las áreas funcionales, la gestión de riesgos, los controles
+de seguridad y la auditoría.
+Identificación de vulnerabilidades (30%): La organización necesita implementar un plan de evaluación de vulnerabilidad. Se requiere un plan para implementar el escaneo continuo, las pruebas de penetración, la evaluación de vulnerabilidades, las medidas de corrección de vulnerabilidades y buscar la alineación con el panorama actual
+de amenazas cibernéticas y los riesgos existentes.
+Gestión de incidentes (10%): La organización necesita saber cómo afrontar los ataques cibernéticos. Un plan de acción es urgente. La organización necesita un plan de acción para implementar la gestión de respuesta a incidentes, establecer niveles de escalamiento y comunicación, educación y concientización de incidentes, una política
+corporativa de gestión de incidentes y definir el procedimiento para todas las fases de respuesta a incidentes cibernéticos.
+Análisis forense digital (30%): Ya sea para contratar consultores externos o capacitar a su personal de TI, la organización debe tener un plan que debe formar parte de la gestión de incidentes cibernéticos de su organización. La organización no está familiarizada con los procedimientos de investigación digital, los procedimientos de
+cadena de custodia y las investigaciones de descubrimiento electrónico.
+Defensa cibernética activa (5%): La organización necesita implementar controles de ciberseguridad para todas las áreas de negocios. La organización no ha implementado controles críticos para aplicar la defensa cibernética activa, detectar y analizar ataques cibernéticos, mitigar daños cibernéticos y contramedidas externas
+fuera de sus redes.
+Recuperación ante desastres (30%): La organización necesita agregar e integrar la ciberseguridad para su Recuperación ante desastres (DR) y su Plan de continuidad comercial (BCP). Si bien se han tomado algunas medidas para la recuperación general de desastres, la ciberseguridad no se ha considerado en ningún caso de interrupciones,
+ni en las evaluaciones para los escenarios posteriores a la reanudación.
+Gobernanza y estrategia (35%): La organización debe definir su estrategia de seguridad cibernética e implementar un programa de ciberseguridad organizacional que esté alineado con la estrategia, misión, visión, metas y objetivos de la institución.
+
+Dominios de ciberseguridad que necesitan mejoras en función de la auditoría CSAM:
+Riesgos cibernéticos (60%): La organización necesita diseñar, implementar y revisar regularmente un plan de administración de riesgos cibernéticos. Se requiere una clara clasificación de los activos de información. Además, se necesita una política de gestión de riesgos cibernéticos bien definida, que incluya metas y objetivos junto con una matriz
+para aceptar, mitigar o transferir riesgos cibernéticos.
+
+Activos cibernéticos (60%): Los activos cibernéticos deben identificarse y protegerse. Se requieren auditorías de inventario para identificar los activos cibernéticos y se requieren propietarios dentro de la organización.
+Arquitectura y redes (67%): La organización necesita implementar controles adicionales para fortalecer la arquitectura y la seguridad de las redes. Las áreas que necesitan mejoras son defensa en profundidad, seguridad física, seguridad para productos y servicios de terceros, marcos de arquitectura, encriptación, pruebas de
+penetración, gestión de cuentas de usuarios y gestión del rendimiento.
+Información, sistemas y aplicaciones (55%): La organización necesita implementar controles adicionales para reforzar la seguridad de la información, los sistemas y las aplicaciones. Las áreas que necesitan mejoras son la gestión de proyectos, la gestión de cambios, la gestión de registros, los controles y evaluaciones de auditoría,
+la gestión web, la planificación de recursos empresariales (ERP), la seguridad de las aplicaciones, los controles de salida de aplicaciones, los controles de seguimiento de auditoría de aplicaciones y los controles de correo electrónico.
+Inteligencia de amenazas (60%): La organización necesita comenzar a recopilar y procesar información sobre posibles amenazas cibernéticas, vulnerabilidades cibernéticas y posibles ataques cibernéticos que pueden afectar sus operaciones. La organización debe dedicar recursos y equipos para mejorar la recopilación de inteligencia
+sobre amenazas y para implementar las políticas de respuesta requeridas.
+Educación de concientización (60%): La organización necesita implementar un programa completo de concientización y capacitación sobre ciberseguridad para todas las partes interesadas. El entrenamiento parcial de concientización es ineficaz. Si bien CATRAM se implementó por completo como punto de partida para desarrollar
+el programa corporativo de concientización y capacitación sobre ciberseguridad, se Figura 2 – Gráfico de Radar del estudio CSAM recomienda particularmente realizar revisiones anuales para enfrentar las nuevas amenazas cibernéticas.
+El estudio del caso demostró que el alcance de la investigación se logró según lo establecido. La evidencia para esta conclusión se presenta en la Figura 2.
+6. Conclusiones El objetivo principal de esta investigación fue diseñar y validar el Modelo de Auditoría de Ciberseguridad (CSAM) para enfrentar los desafíos al realizar auditorías de ciberseguridad integrales. El modelo de ciberseguridad que incluye todos sus componentes, fue validado satisfactoriamente por un caso de estudio realizado en una
+institución de educación superior canadiense.
+El CSAM no es exclusivo para una industria, sector u organización. Por el contrario, el modelo se puede utilizar para planificar, realizar y verificar auditorías de ciberseguridad en cualquier organización o país. El CSAM ha sido diseñado para realizar auditorías de
+ciberseguridad parciales o completas para un dominio específico, varios dominios o para la auditoría integral de todos los dominios.
+Los resultados de este estudio muestran que las auditorías de ciberseguridad realizadas por dominios pueden ser muy efectivas para evaluar los controles y las respuestas a las amenazas cibernéticas.
+La limitación de nuestro estudio es que el modelo se validó en una sola organización, las limitaciones de tiempo, la falta de interés por los temas y la falta de compromiso fueron algunos de los desafíos que tuvimos que superar por parte de los participantes e investigadores. Por lo tanto, actualmente estamos realizando una segunda validación en
+una universidad canadiense diferente y más grande, que permita comprobar con nuevos datos de investigación científica el diseño y la efectividad del CSAM.
+Los resultados de la investigación tienen implicaciones para nuestra organización objetivo, pero al mismo tiempo, implicaciones para futuras investigaciones en las que se pueda revisar y ampliar los modelos de ciberseguridad propuestos, integrando dentro de la dinámica de aplicación de éstos, la ventana de AREM, como soporte estratégico de
+riesgos y amenazas emergentes para los auditores de ciberseguridad (Cano, 2017).
+
+
+
+
+
+
+El artículo "Auditorías en Ciberseguridad: Un modelo de aplicación general para empresas y naciones" propone un Modelo de Auditoría de Ciberseguridad (CSAM) que puede ser utilizado para evaluar y medir la ciberseguridad en cualquier organización o nación. El modelo se implementó y validó en una institución de educación superior canadiense a través de un estudio de casos múltiples. Aquí están los aspectos clave del artículo:
+
+Introducción y Contexto: El artículo comienza destacando la creciente importancia de la ciberseguridad en las organizaciones y señala la incidencia de ataques cibernéticos en diferentes sectores. Se menciona que muchas organizaciones invierten en ciberseguridad, pero aún enfrentan desafíos en este ámbito.
+
+Motivación: El artículo aborda la falta de directrices claras para llevar a cabo auditorías exhaustivas de ciberseguridad y las debilidades en los programas de concientización sobre ciberseguridad disponibles. Se plantean dos preguntas principales: ¿Cómo evaluar y medir el nivel de ciberseguridad, madurez y preparación cibernética en cualquier organización o nación? y ¿Por qué es necesario aumentar la ciberconciencia a nivel organizacional y personal?
+
+Metodología: El artículo describe la metodología utilizada para llevar a cabo un estudio de casos múltiples en una institución de educación superior canadiense. Se menciona que se siguieron las pautas propuestas por Yin (2018) para diseñar, implementar y validar el CSAM y el CATRAM (un modelo de concientización sobre ciberseguridad).
+
+Marco General de Gestión de Riesgos: Se destaca la importancia de la gestión de riesgos en ciberseguridad y se introduce el concepto de la ventana de AREM como un marco de trabajo estratégico y táctico para la gestión de riesgos cibernéticos.
+
+El Modelo de Auditoría de CiberSeguridad (CSAM): Se presenta el CSAM como un modelo exhaustivo que evalúa la ciberseguridad en organizaciones y naciones. El CSAM consta de 18 dominios que cubren varios aspectos de la ciberseguridad, como gobernanza, activos cibernéticos, gestión de riesgos, arquitectura, gestión de incidentes, educación de concientización y más. Cada dominio tiene subdominios y controles específicos.
+
+Resultados: Se presentan los resultados de la implementación y validación del CSAM en tres escenarios diferentes. Se muestra un resumen de las calificaciones de madurez de ciberseguridad para diferentes dominios y se destacan las áreas que requieren atención inmediata y mejoras.
+
+Conclusiones: El artículo concluye que el CSAM es un modelo funcional y útil que puede implementarse y probarse en cualquier organización. Se destaca su capacidad para evaluar la ciberseguridad a nivel nacional. También se mencionan las áreas de ciberseguridad que necesitan mejoras según los resultados del estudio de casos.
+
+En resumen, el artículo propone un modelo de auditoría de ciberseguridad integral (CSAM) que puede aplicarse en organizaciones y naciones para evaluar su nivel de madurez y preparación cibernética. El modelo se basa en un enfoque de gestión de riesgos y cubre múltiples dominios de ciberseguridad. Los resultados del estudio de casos respaldan la efectividad del modelo en la evaluación de la ciberseguridad.
