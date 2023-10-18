@@ -25,3 +25,14 @@ Continuar el desarrollo dle tablero con indicadores de RRHH. Para ello implement
 Luego de estas implementaciones el tablero debería quedar con una interfaz similar a la siguiente:
 
 Se adjunta: Fondo (SKU-DON empresa ficticia) y template descargado del sitio de powerBi.
+
+
+
+grupo_edad = SWITCH(
+    'Tabla Empleados'[Edad],
+    'Tabla Empleados'[Edad] <= 20, 0-20,
+    'Tabla Empleados'[Edad] <= 30, 20-30,
+    'Tabla Empleados'[Edad] <= 40, 30-40,
+    'Tabla Empleados'[Edad] <= 50, 40-50,
+    'Tabla Empleados'[Edad] <= 60, 50-60,
+)
