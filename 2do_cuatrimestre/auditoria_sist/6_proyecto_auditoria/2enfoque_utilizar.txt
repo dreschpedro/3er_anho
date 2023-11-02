@@ -1,19 +1,12 @@
 [apunte]
 La presente acción de control, se realiza de acuerdo con el organismo central y rector de los Sistemas Nacionales de Estadística e Informática, responsable de normar, supervisar y evaluar los métodos, procedimientos y técnicas estadísticas e informáticas tilizados por los órganos del Sistema INEI (Instituto Nacional de Estadística e Informática), Normas Internacionales de Auditoria (NIA); habiéndose aplicado procedimientos de Auditoria que se consideraron necesarios de acuerdo a las circunstancias.
-
 La presente Auditoria Informática se realizara en la Municipalidad Provincial de Mariscal Nieto, ubicada en el Distrito de Moquegua, Provincia Mariscal Nieto Departamento de Moquegua, siendo el área a examinarse la de Informática.
-
-
-
 
 [ChatGPT]
 El "enfoque a utilizar" se refiere a la metodología o el enfoque específico que se utilizará en la auditoría de sistemas. Esto implica definir cómo se llevará a cabo la auditoría, qué estándares o normas se seguirán y cómo se aplicarán los procedimientos de auditoría. En tu caso, el apunte hace referencia a que la auditoría se realiza de acuerdo con las normas del organismo central y rector de los Sistemas Nacionales de Estadística e Informática y las Normas Internacionales de Auditoría (NIA).
-
 Para completar esta sección en tu proyecto de auditoría de sistemas, puedes indicar claramente cuál será el enfoque o la metodología que seguirás. Por ejemplo, puedes mencionar si se utilizarán las normas internacionales de auditoría, las mejores prácticas de la industria, algún marco de referencia específico, o cualquier otro enfoque que se considere necesario.
 
 Un ejemplo de cómo podrías redactar esta sección podría ser:
-
 Enfoque a Utilizar:
 La auditoría de sistemas en la Municipalidad Provincial de Mariscal Nieto se llevará a cabo siguiendo las Normas Internacionales de Auditoría (NIA) y las directrices establecidas por el organismo central y rector de los Sistemas Nacionales de Estadística e Informática. Se aplicarán procedimientos de auditoría que se consideren necesarios de acuerdo a las circunstancias específicas de la institución y el área de Informática que se examinará.
-
 Asegúrate de ajustar esta sección de acuerdo a las normativas y enfoques que se aplicarán en tu auditoría de sistemas específica.
