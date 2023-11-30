@@ -8,7 +8,7 @@ Continuar el desarrollo dle tablero con indicadores de RRHH. Para ello implement
 
 4. Agregar tooltips con mas datos. 
 
-5. Crear columnas condicionales con DAX. Segmentar empleados por edad. 
+5. Crear columnas condicionales con DAX. Segmentar empleados por edad.
 
 6. Visualizar en un gráfico de barras apiladas el grupo de edad. 
 
